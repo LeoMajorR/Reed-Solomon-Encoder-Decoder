@@ -2,7 +2,7 @@ import sys
 
 sys.path.append('..')
 
-from reedSolo import RSCodec
+from ReedSolomon import RSCodec
 import tkinter as tk
 
 

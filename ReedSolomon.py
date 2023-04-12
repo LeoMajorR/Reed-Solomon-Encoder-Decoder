@@ -625,6 +625,16 @@ def rs_check(msg, nsym, fcr=0, generator=2):
 
 
 class RSCodec(object):
+    """
+    Reed-Solomon codec class.
+    @param nsym: Number of parity symbols to generate
+    @param nsize: Total number of symbols (data + parity)
+    @param fcr: First consecutive root of generator polynomial
+    @param prim: Primitive element to generate polynomial roots
+    @param generator: Generator polynomial
+    @param c_exp: Exponent of the field size
+    @param single_gen: Use a single generator polynomial for all instances
+    """
 
     def __init__(self,
                  nsym=10,
