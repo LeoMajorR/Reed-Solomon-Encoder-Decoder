@@ -7,3 +7,4 @@ This is a simple implementation of Reed-Solomon Encoder and Decoder in Python. I
 - Install the tkinter package for Python 3.x
 - Run the GUI.py file
 
+<img src="./Screenshot 2023-04-12 210125.png">
